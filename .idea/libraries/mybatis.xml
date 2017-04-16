@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="mybatis">
+    <ANNOTATIONS>
+      <root url="file://$MAVEN_REPOSITORY$/org/mybatis" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$MAVEN_REPOSITORY$/org/mybatis" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://$MAVEN_REPOSITORY$/org/mybatis" />
+    </JAVADOC>
+    <NATIVE>
+      <root url="file://$MAVEN_REPOSITORY$/org/mybatis" />
+    </NATIVE>
+    <SOURCES>
+      <root url="file://$MAVEN_REPOSITORY$/org/mybatis" />
+    </SOURCES>
+    <jarDirectory url="file://$MAVEN_REPOSITORY$/org/mybatis" recursive="false" />
+    <jarDirectory url="file://$MAVEN_REPOSITORY$/org/mybatis" recursive="false" type="SOURCES" />
+  </library>
+</component>

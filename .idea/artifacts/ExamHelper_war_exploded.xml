@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ExamHelper:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ExamHelper_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ExamHelper/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ExamHelper" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="javax.annotation" />
+          <element id="library" level="project" name="Spring-4.3.7.RELEASE" />
+          <element id="library" level="project" name="mybatis-spring-1.0.1" />
+          <element id="library" level="project" name="mybatis-3.0.5" />
+          <element id="library" level="project" name="spring-webmvc-4.2.4.RELEASE" />
+          <element id="library" level="project" name="2.7" />
+          <element id="library" level="project" name="gwt-user-2.8.0" />
+        </element>
+      </element>
+      <element id="gwt-compiler-output" facet="ExamHelper/gwt/GWT" />
+    </root>
+  </artifact>
+</component>

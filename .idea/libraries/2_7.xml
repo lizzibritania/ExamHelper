@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="2.7">
+    <CLASSES>
+      <root url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-servlet/2.7.0" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$MAVEN_REPOSITORY$/com/google/gwt/gwt-servlet/2.7.0" recursive="false" />
+  </library>
+</component>
