@@ -7,7 +7,7 @@ import main.java.com.netcracker.shared.Exam;
 import java.util.List;
 
 @RemoteServiceRelativePath("springGwtServices/ExamService")
-public interface ExamService extends RemoteService {
+public interface ExamService extends RemoteService  {
 
 
 

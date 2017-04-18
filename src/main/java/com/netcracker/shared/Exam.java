@@ -1,13 +1,11 @@
 package main.java.com.netcracker.shared;
 
-import com.google.gwt.user.client.rpc.IsSerializable;
-
 import java.io.Serializable;
 
 /**
  * Created by Lizzi on 13.04.2017.
  */
-public class Exam implements Serializable, IsSerializable {
+public class Exam implements Serializable {
     private String group;
     private String subject;
     private String date;

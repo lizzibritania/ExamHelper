@@ -8,5 +8,8 @@
     <inherits name='com.google.gwt.user.theme.standard.Standard'/>
 
 
-    <entry-point class='HelloGWT'/>
+    <entry-point class='main.java.com.netcracker.client.HelloGWT'/>
+    <source path='client'/>
+    <source path='shared'/>
+
 </module>

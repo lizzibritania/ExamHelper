@@ -1,16 +1,18 @@
 package main.java.com.netcracker.server.service;
 
 
+import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 import main.java.com.netcracker.client.ExamService;
 import main.java.com.netcracker.server.persistence.ExamMapper;
 import main.java.com.netcracker.shared.Exam;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service("ExamService")
-public class ExamServiceImpl implements ExamService {
+public class ExamServiceImpl  extends RemoteServiceServlet implements ExamService {
 
     @Autowired
     private ExamMapper ExamMapper;
@@ -33,6 +35,11 @@ public class ExamServiceImpl implements ExamService {
 
     @Override
     public List<Exam> getExams() {
-        return ExamMapper.getExams();
+        Exam exam=new Exam("","","","","","");
+        ArrayList<Exam> arrayList=new ArrayList<Exam>();
+        arrayList.add(exam);
+        if (ExamMapper.getExams() == null )
+            return arrayList;
+       else  return ExamMapper.getExams();
     }
 }
